@@ -109,29 +109,14 @@ npm run dev
 
 ## 🔐 Create Your Admin Account
 
-### Using cURL:
 
-```bash
-curl -X POST http://localhost:5000/api/auth/register \
-  -H "Content-Type: application/json" \
-  -d '{
-    "username": "admin",
-    "email": "admin@example.com",
-    "password": "yourSecurePassword123"
-  }'
 ```
 
 ### Using Postman or Thunder Client:
 
 **POST** `http://localhost:5000/api/auth/register`
 
-Body (JSON):
-```json
-{
-  "username": "admin",
-  "email": "admin@example.com",
-  "password": "yourSecurePassword123"
-}
+
 ```
 
 **Important:** The first user to register automatically becomes a superadmin!
