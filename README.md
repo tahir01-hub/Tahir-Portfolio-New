@@ -2,8 +2,6 @@
 
 A modern, professional portfolio website featuring a **fully functional admin panel** with real backend API and MongoDB database integration. Built with React, TypeScript, Three.js, and GSAP for stunning visuals, plus Express.js and MongoDB for powerful backend management.
 
-![Portfolio Preview](https://github.com/user-attachments/assets/3c4557e7-6392-4928-b8a9-7b2476ef4edd)
-
 ## ✨ What's New - Complete Admin Panel!
 
 This portfolio now includes a **100% working admin dashboard** where you can:
