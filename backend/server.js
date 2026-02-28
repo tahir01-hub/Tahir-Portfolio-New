@@ -47,6 +47,31 @@ app.use('/api/skills', skillRoutes);
 app.use('/api/contact', contactRoutes);
 app.use('/api/settings', settingsRoutes);
 
+app.get('/', (req, res) => {
+  res.json({
+    success: true,
+    message: 'Portfolio backend is running',
+    api: '/api'
+  });
+});
+
+app.get('/api', (req, res) => {
+  res.json({
+    success: true,
+    message: 'API base route',
+    routes: [
+      '/api/health',
+      '/api/auth',
+      '/api/about',
+      '/api/projects',
+      '/api/career',
+      '/api/skills',
+      '/api/contact',
+      '/api/settings'
+    ]
+  });
+});
+
 // Health Check
 app.get('/api/health', (req, res) => {
   res.json({ 
